@@ -1,0 +1,38 @@
+/*
+Description
+
+Take an integer as the input from the user and then calculate the number of digits in the given input and print it as the output.
+
+Input
+
+3241
+
+Output
+
+4 I
+
+nput
+
+6
+
+Output
+
+1
+
+*/
+
+import java.util.*;
+
+class Main
+{
+   public static void main(String args[])
+   {
+	Scanner sc=new Scanner (System.in);
+	int a;
+	a=sc.nextInt();
+	
+	System.out.println(a.length);
+   }
+
+
+}

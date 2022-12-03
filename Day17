@@ -1,0 +1,45 @@
+/*
+
+Description
+
+Get an input from the user and find the factors of the number.
+
+Input
+
+4
+
+Output
+
+1,2,4  
+
+*/
+
+import java.util.*;
+
+class Day17{
+	
+	public static void main(String [] args)
+	{
+		Scanner sc=new Scanner(System.in);
+		int a;
+		
+		a=sc.nextInt();
+		for(int i=1 ; i<=a; i++)
+		{
+			int fact=1;
+			
+			if(a%i==0)
+			{
+				fact=i;
+				
+				System.out.println(fact);
+
+
+			}
+
+			
+		}
+		
+                       
+	}
+}

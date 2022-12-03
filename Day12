@@ -1,0 +1,47 @@
+
+/*
+Description
+
+Get a number from user and then find the sum of the digits in the given number.
+
+E.g. let the number = 341
+
+Sum of digits is 3+4+1= 8
+
+Input
+
+4521
+
+Output
+
+12
+
+*/
+
+
+import java.util.*;
+
+class Day12
+{
+   public static void main(String args[])
+   {
+	Scanner sc=new Scanner (System.in);
+	int a,rem,sum=0;
+	a=sc.nextInt();
+	
+    while(a!=0)
+	{
+		rem=a%10;
+		
+		a=a/10;
+		sum=rem+sum;
+			
+	}
+	
+	System.out.println(sum);
+	
+  
+   }
+
+
+}

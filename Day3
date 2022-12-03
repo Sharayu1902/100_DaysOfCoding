@@ -1,0 +1,31 @@
+/*
+Description: Get an input character from the user and give the ASCII value of the given input as the output.
+
+Input: b
+
+Output: 98
+
+Input: B
+
+Output: 66
+
+*/
+
+
+import java.util.*;
+
+class Day3{
+	
+	public static void main(String[] args)
+	{
+		System.out.println("Enter a character : ");
+		Scanner sc=new Scanner(System.in);
+		
+		char ch=sc.next().charAt(0);
+		
+		
+		int asciiValue=ch;
+        System.out.println("Ascii value of "+ ch +" is "+ asciiValue);		
+		
+	}
+}
